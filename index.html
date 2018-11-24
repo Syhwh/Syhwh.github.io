@@ -4,9 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SWG-Portfolio</title>
+    
+    
+    <!--Fonts-->
+
+    <link rel="stylesheet" href="/assets/font-mfizz/font-mfizz.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Serif|Raleway|Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!--link rel="stylesheet" href="bootstrap.min.css"-->
+    <link rel="stylesheet" href="style.css">
+<!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+    <script  src="./assets/jquery.waypoints.min.js"></script>
+    <script  src="./assets/jquery.counterup.min.js"></script>
+
 </head>
-<body>
-    Hello World
+<body data-spy="scroll" data-target="#navbar-main" data-offset="80">
+    <header id="Header" >
+        <div class="wrapper"> 
+            <h4 class="intro">Hello I'm <span class="myName"> Shymmy W. Garcia</span>
+            </h4> 
+            <i class="intro fas fa-angle-right"></i>
+            <span class="txt-type" data-wait="1000" data-words='["Fullstack Web Developer", "NodeJS", "Angular"]'>  </span>               
+        </div>
+        <a href="#Main" Class="button">My Work <i class="material-icons">arrow_forward_ios</i></a>
+        <div id="particles-js"></div>      
+    </header>
+
+    <main id="Main">
+        <nav id="navbar-main" class="navbar navbar-expand-lg  navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Shymmy W. Garcia</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item  ">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>    
+                </div>
+              </nav>
+
+              
+<!--****************************************************************-->
+<div id="About" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="header-title text-center waypoint animated slide-in-left" data-animation="slide-in-left">
+                ABOUT ME
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4" id="photo">
+                    <img src="/images/hv.jpeg" alt="SWG-Picture" class="picture">
+                    
+                </div>
+                <div class="col-md-8">
+                    <p>I'm a sound engineer, programmer and technology entusiastic </p>
+                    <p>I had been working as professor almost for 8 years before I switched to a new profession - Fullstack Web Developer.</p>
+                    <p>I am highly-motivated, result oriented, self-driven, hard-working, fast learner and smart eager to be a part of the team, learn new technologies, become a valuable employee of the company and bring it success.</p>
+                    <p>Well-organized with an ability to prioritize tasks and capability to work, develop and grow in the company. Experienced in communicating with the team and clients. Attentive and accurate to details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+    <div class=" skills">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="video-wrap">
+                    <video height="300" src="images/programming.mp4" autoplay="true" loop="true" type="video/mp4" muted ></video>
+                    <div class="content">
+                        <h3 class="waypoint animated slide-in-left" data-animation="slide-in-left">Front-end Skills</h3>
+                    </div>
+                </div>
+            </div>
+        <div class="col-md-8 " id="general" >
+            <div  id="skill-container">
+                <img src="images/html.png" alt="HTML5" title="HTML5">
+                <div id="skill" class="progress col-md-8">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #34b1c4; width: 90%;">
+                        <div class="progress-value ">  <span class="statistic-counter"  > 90</span>%</div>
+                    </div>
+                </div>
+            </div>  <!--Close div Skill-->  
+            <div  id="skill-container">
+                    <img src="images/css.png" alt="css-img" title="css-img">
+                    <div id="skill" class="progress col-md-8">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #34b1c4; width: 80%;">
+                            <div class="progress-value ">  <span class="statistic-counter"  > 80</span>%</div>
+                        </div>
+                    </div>
+                </div>  <!--Close div Skill-->  
+                <div  id="skill-container">
+                        <img src="images/js.png" alt="js-im" title="js-im">
+                        <div id="skill" class="progress col-md-8">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #34b1c4; width: 60%;">
+                                <div class="progress-value ">  <span class="statistic-counter"  > 60</span>%</div>
+                            </div>
+                        </div>
+                    </div>  <!--Close div Skill-->  
+                    <div  id="skill-container">
+                <img src="images/jquery.png" alt="jquery-img" title="jquery-img">
+                <div id="skill" class="progress col-md-8">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #34b1c4; width: 40%;">
+                        <div class="progress-value ">  <span class="statistic-counter"  > 40</span>%</div>
+                    </div>
+                </div>
+            </div>  <!--Close div Skill-->  
+            <div  id="skill-container">
+                <img src="images/bootstrap.png" alt="boot-img" title="boot-img">
+                <div id="skill" class="progress col-md-8">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #34b1c4; width: 75%;">
+                        <div class="progress-value ">  <span class="statistic-counter"  > 75</span>%</div>
+                    </div>
+                </div>
+            </div>  <!--Close div Skill--> 
+            <div  id="skill-container">
+                    <img src="images/photoshop.png" alt="ps-img" title="ps-img">
+                    <div id="skill" class="progress col-md-8">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="background-color: #34b1c4; width: 65%;">
+                            <div class="progress-value ">  <span class="statistic-counter"  > 65</span>%</div>
+                        </div>
+                    </div>
+                </div>  <!--Close div Skill-->             
+        </div> <!--Close div cols-->
+    </div> <!--Close div Row-->
+
+            
+    
+    </div> <!--Close div Skills-->
+
+ <section id="features" class="counter">
+     <div class="container">
+         <div class="row count">
+            <div class="col-md-2 col-sm-3  col-xs-6">
+                <i class="fab fa-angular"></i>
+                <h4><span class="statistic-counter"> 20</span> %</h4>
+            </div> <!--Close div element-->
+            <div class=" col-md-2 col-sm-3 col-xs-6">
+                <i class="fab fa-react"></i>
+                <h4><span class="statistic-counter"> 10</span> %</h4>
+            </div> <!--Close div element-->
+            <div class=" col-md-2 col-sm-3 col-xs-6">
+                <i class="fab fa-node"></i>
+                <h4><span class="statistic-counter"> 20</span> %</h4>
+            </div> <!--Close div element-->
+            <div class="col-md-2 col-sm-3 col-xs-6">
+                <i class="fab fa-github"></i>
+                <h4><span class="statistic-counter"> 65</span> %</h4>
+            </div> <!--Close div element-->
+            <div class=" col-md-2 col-sm-3 col-xs-6">
+                <i class="icon-ruby-on-rails-alt" style="font-size:2em"></i>
+                <h4><span class="statistic-counter">25</span> %</h4>
+            </div> <!--Close div element--> 
+            <div class=" col-md-2 col-sm-3 col-xs-6">
+                <i class="icon-mongodb" style="font-size:2em"></i>
+                <i class="icon-mysql" style="font-size:2em"></i>
+                <h4><span class="statistic-counter"> 60</span> %</h4>
+            </div> <!--Close div element-->
+        </div>
+    </div>
+</section><!--/#features-->
+
+<div  id="Portfolio" class="container">
+    <div class="row">
+        </div>
+    </div>
+    </div>
+</section>
+
+</main>
+<!--Particles Script-->
+<script src="./assets/particles.js"></script>
+<script src="./assets/app.js"></script>   
+<script  src="./assets/main.js"></script>
+
+<!--Bootsrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script  src="./assets/jquery.waypoints.min.js"></script>
 </body>
 </html>

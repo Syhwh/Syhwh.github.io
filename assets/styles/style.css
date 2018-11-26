@@ -278,7 +278,7 @@ box-shadow: 0px 3px 61px 0px rgba(125,125,125,1);
         box-shadow: 6px 3px 31px 0px rgba(191,184,191,1);
     
 }
-.video-wrap .content {
+.video-wrap .skill-content {
     position: absolute;
     top: 0;
     display: flex;
@@ -308,3 +308,43 @@ color: rgb(58, 143, 24);
 .icon-mysql{
     color: rgb(47, 83, 202);
 }
+
+/*###################################################################################################################*/
+
+.portfolio-img{
+    width: 180px;
+    height: 180px ;
+ }
+ .pcard{
+     margin-top: 2rem;
+ }
+
+
+/*################################################################################*/
+
+.card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.425) !important;
+    transition: all 0.3s ease-in-out;
+  }
+  .card::after {
+    z-index: -1;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  
+  .card:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+  
+  .card:hover::after {
+    opacity: 1;
+  }
+  
+  #Contact{
+      background-color: rgb(192, 194, 201);
+  }
+  

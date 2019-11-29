@@ -1,4 +1,4 @@
-/body {
+body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #4f4f4f
@@ -538,7 +538,7 @@ hr {
     height: 0;
     border-style: solid;
     border-width: 40px 40px 0 0;
-    border-color: rgba(12, 18, 44, 0.829); transparent transparent transparent;
+    border-color: rgba(12, 18, 44, 0.829) transparent transparent transparent;
     -webkit-transform: rotate(360deg)
 }
 
@@ -778,7 +778,7 @@ hr {
     height: 0;
     border-style: solid;
     border-width: 40px 40px 0 0;
-    border-color: rgba(12, 18, 44, 0.829); transparent transparent transparent;
+    border-color: rgba(12, 18, 44, 0.829) transparent transparent transparent;
     -webkit-transform: rotate(360deg)
 }
 
